@@ -1,0 +1,25 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center; 
+    : ;
+}
+
+.word-of-the-day {
+    margin-top: 20px;
+    background-color: #2171b3;;
+    
+    
+}
+
+form {
+    margin-top: 20px;
+}
+
+.search-results {
+    margin-top: 20px;
+}
+header{
+background-color: #f8e3ea;    
+}

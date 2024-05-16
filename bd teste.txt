@@ -1,0 +1,61 @@
+CREATE TABLE dicionario (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    termo VARCHAR(100) NOT NULL,
+    classe_gramatical VARCHAR(50),
+de VARCHAR(50),
+imagem VARCHAR(50),
+divisao VARCHAR(50), 
+abreviatura VARCHAR(50),
+acronimo VARCHAR(50),
+sigla VARCHAR(50),
+equivalente VARCHAR(50),
+fonte VARCHAR(50),
+abreviaturaingles VARCHAR(50), 
+abreviaturaespanhol VARCHAR(50),
+abreviaturafrances VARCHAR(50), 
+  sinonimos VARCHAR(255),
+relacionado1 VARCHAR(50),
+relacionado2 VARCHAR(50),
+relacionado3 VARCHAR(50),
+relacionado4 VARCHAR(50),
+  angola VARCHAR(50),
+brasil VARCHAR(50),
+cabo VARCHAR(50),
+equatorial VARCHAR(50),
+  bissau VARCHAR(50),
+moçambique VARCHAR(50),
+portugal VARCHAR(50),
+timor VARCHAR(50),
+tome VARCHAR(50),
+    definicao1 TEXT,
+definicao2 TEXT,
+definicao3 TEXT
+);
+
+
+
+
+INSERT INTO dicionario (termo, classe_gramatical,de,imagem,divisao,abreviatura,abreviaturaingles,abreviaturaespanhol,abreviaturafrances, sinonimos, definicao1,definicao2,definicao3) VALUES
+('
+
+Fundamental', ' s. m. e adj.', 'Do lat.','fundamental','Fun.da.men.tal','Fundam.','Fund.','Fund.','Fond.','primordial', 'Em acústica: na fala, quando as cordas vocais vibram, emitem uma
+ onda complexa (triangular), decomponível pela análise de Fourigk em 
+frequências simples de que a mais baixa é o (som) fundamental: a 
+frequência do fundamental é a frequência da onda complexa Harmónico.
+','EM LINGUÍSTICA APLICADA: francês fundamental: resultado de inquéritos 
+estatísticos realizados sob a direcção de G. Goucen Heim entre 1951 
+e 1954, incidindo sobre o vocabulário e a gramática do francês falado,
+e visando estabelecer o conteúdo linguístico de um ensino do francês,
+língua estrangeira, a principiantes, a partir do critério de frequência de 
+emprego.
+
+ O Français fondamental (Francês fundamental), primeiro grau, abrange
+ 1445 palavras, das quais 1176 palavras lexicais e 269 palavras grama
+ticas','Expressão utilizados pelos falantes gravados: Esse é
+liamento permitiu eliminar as formas e as construções cujo emprego é
+ falada 
+o estabelecer uma lista de prescrições ensinado primeiro e o que poderá ser recuado par
+lo');
+
+INSERT INTO dicionario (termo, classe_gramatical,de,imagem,divisao,abreviatura,abreviaturaingles,abreviaturaespanhol,abreviaturafrances, sinonimos, relacionado1, relacionado2, relacionado3, relacionado4, angola, brasil, cabo, equatorial,bissau, moçambique, portugal,tome,timor,definicao1,definicao2,definicao3) VALUES
+('Aluno', 's. m.', 'lat.','aluno','a.lu.no','al','Student','Estudiante','Élève','Estudante','Acadêmico','Aprendiz','Aulista','Aprendente','','','','','','','','','','','','');

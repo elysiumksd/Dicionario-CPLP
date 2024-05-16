@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+          .cabeça{
+            text-align: center;
+            background-color: #065ac7;
+      box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.20);
+      width: 100%;
+        } 
+        body{
+            background-color: #6eb8f5;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: justify;
+            color: white;            
+            margin: 0;
+    padding: 0;
+        }
+        input[type="text"]{
+margin-left: +200px;
+width: 500px;
+padding: 10px;
+margin: 5px 0;
+border: 1px solid #ccc;
+border-radius: 3px;
+}
+button{
+    background-color: #2196f3;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-left: +490px;
+  }
+  .mover{
+    margin-left: +100px;
+  }
+  .moverq{
+    margin-left: -200px;
+  }
+    </style>
+</head>
+<body>
+    
+<div class="cabeça">
+          
+    <img src="cplp logo.png" alt="" width="130">
+    <h1 style="font-size: 22px;">Dicionário Digital Plurilingue da Educação e Formação <br> da Comunidade dos Países de Língua Portuguesa</h1>
+    </div>      
+    <div class="mover"> 
+        <form method="post" action="adicionar.php">
+            <input type="text" name="termo" placeholder="Termo: ">
+            <input type="text" name="classe_gramatical" placeholder="Classe Gramatical: "><br>
+             <input type="text" name="de" placeholder="De:">
+           <input type="text" name="imagem" placeholder=" Imagem: "><br>
+            <input type="text" name="divisao" placeholder=" Divisao:">
+             <input type="text" name="abreviatura" placeholder="Abreviatura:"><br>
+             <input type="text" name="abreviaturaingles" placeholder="Abreviatura em Inglês:">
+             <input type="text" name="abreviaturaespanhol" placeholder="Abreviatura em Espanhol:"><br>
+             <input type="text" name="abreviaturafrances" placeholder="Abreviatura em Francês:">
+             <input type="text" name="sinonimos" placeholder="Sinônimos:"><br>
+             <input type="text" name="relacionado1" placeholder="Relacionado 1:">
+             <input type="text" name="relacionado2" placeholder="Relacionado 2:"><br>
+             <input type="text" name="relacionado3" placeholder="Relacionado 3:">
+             <input type="text" name="relacionado4" placeholder="Relacionado 4:"><br>
+             <input type="text" name="angola" placeholder="Angola:">
+            <input type="text" name="brasil" placeholder=" Brasil:"><br>
+            <input type="text" name="cabo" placeholder=" Cabo:">
+            <input type="text" name="equatorial" placeholder=" Equatorial:"><br>
+            <input type="text" name="bissau" placeholder=" Bissau:">
+             <input type="text" name="moçambique" placeholder="Moçambique:"><br>
+             <input type="text" name="portugal" placeholder="Portugal:">
+            <input type="text" name="tome" placeholder=" Tome:"><br>
+             <input type="text" name="timor" placeholder="Timor:">
+             <input type="text" name="definicao1" placeholder="Definição 1:"><br>
+            <input type="text" name="definicao2" placeholder=" Definição 2:">
+             <input type="text" name="definicao3" placeholder="Definição 3:"><br>
+             <button>Enviar</button>
+           
+        </form>
+
+
+    </div>
+   
+    <form action="select.php" method="post">
+        <center><h2>Editar</h2></center>
+        <center><button id="mover">Editar</button></center>
+    </form>
+</body>
+</html>
